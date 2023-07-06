@@ -1,0 +1,110 @@
+/* stylelint-disable custom-property-pattern */
+
+:root {
+
+  --base-size: 1rem;
+
+  /* Sizes */
+  --xs: calc(0.5 * var(--base-size));
+  --s: calc(1 * var(--base-size));
+  --m: calc(1.5 * var(--base-size));
+  --l: calc(2 * var(--base-size));
+  --xl: calc(3 * var(--base-size));
+  --xxl: calc(4 * var(--base-size));
+  --xxxl: calc(5 * var(--base-size));
+
+  /* Font Properties
+---------------------------------------------------------------------------- */
+  --font-family-serif: "Courier New", monospace;
+  --font-family-sans: "AtkinsonHyperlegible", sans-serif;
+  --font-family-headlines: "RobotoSlab", sans-serif;
+  --base-font-size: var(--s);
+  --font-icons: "MaterialIcons";
+  --half: calc(var(--base-font-size) / 2);
+  --quarter: calc(var(--base-font-size) / 4);
+
+  /* Font Weights
+---------------------------------------------------------------------------- */
+  --fw-light: 200;
+  --fw-normal: 300;
+  --fw-medium: 500;
+  --fw-bold: 700;
+
+  /* Line Heights
+---------------------------------------------------------------------------- */
+  --lh-tight: 110%;
+  --lh-default: 130%;
+  --lh-loose: 150%;
+
+  /* Base Colors
+---------------------------------------------------------------------------- */
+  --light: hsl(0deg 0% 80% / 100%);
+  --lighter: hsl(0deg 0% 90% / 100%);
+  --lightest: hsl(0deg 0% 100% / 100%);
+  --lighten: rgb(255 255 255 / 20%);
+  --dark: hsl(0deg 0% 20% / 100%);
+  --darker: hsl(0deg 0% 10% / 100%);
+  --darkest: hsl(0deg 0% 0% / 100%);
+  --darken: rgb(0 0 0 / 20%);
+  --darken-light: rgb(0 0 0 / 3%);
+  --mi-blau: #4952e1;
+  --mi-pink: #d16;
+  --mi-gruen: #00ad2f;
+  --mi-lila: #9313ce;
+  --mi-black: #231f20;
+  --mi-grau: #aaa;
+  --mi-hellgrau: #efefef;
+
+  /* Functional Colors
+---------------------------------------------------------------------------- */
+  --interaction-color: var(--mi-pink);
+  --decoration-color: var(--mi-gruen);
+  --text-color: var(--darker);
+  --headline-color: var(--dark);
+  --headline-color-light: var(--darker);
+  --border-color: var(--dark);
+  --seperator-color: var(--light);
+  --background-color: var(--mi-lila);
+  --link-color: var(--darkest);
+
+  /* Spaces
+---------------------------------------------------------------------------- */
+  --fluid-space-xs: 1vw;
+  --fluid-space-s: 2vw;
+  --fluid-space-m: 4vw;
+  --fluid-space-l: 8vw;
+  --fluid-space-xl: 16vw;
+
+  /* Transitions
+---------------------------------------------------------------------------- */
+  --tr-fast: 0.2s;
+  --tr-medium: 0.6s;
+  --tr-slow: 1s;
+
+  /* Opacities
+---------------------------------------------------------------------------- */
+  --op-strong: 0.75;
+  --op-medium: 0.5;
+  --op-low: 0.3;
+
+  /* Content Sizes
+---------------------------------------------------------------------------- */
+--max-width-content: calc(60 * var(--s));
+
+  /* Misc
+---------------------------------------------------------------------------- */
+  --bw: 2px;
+  --text-shadow: 0 0 20px var(--darken);
+  --border-width: 2px;
+  --border-width-l: 4px;
+  --border-width-s: 1px;
+  --border-radius-l: 8px;
+  --border-radius: 4px;
+  --border-radius-s: 2px;
+
+  /* Shadows
+---------------------------------------------------------------------------- */
+  --box-shadow-m: 0 0 0.5rem rgb(0 0 0 / 20%);
+  --box-shadow-l: 0 0 1rem rgb(0 0 0 / 20%);
+  --box-shadow-xl: 0 0 2rem rgb(0 0 0 / 20%);
+}
